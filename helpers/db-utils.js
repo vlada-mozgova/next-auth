@@ -32,3 +32,15 @@ export const getAllDocuments = async (
 export const getDocument = async (client, collection, filter) => {
   return await client.db(dbName).collection(collection).findOne(filter);
 };
+
+export const updateDocument = async (
+  client,
+  collection,
+  updateWhat,
+  updateHow
+) => {
+  return await client
+    .db(dbName)
+    .collection(collection)
+    .updateOne(updateWhat, updateHow);
+};
