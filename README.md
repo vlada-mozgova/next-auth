@@ -1,4 +1,4 @@
-This is a Next.js project created with a course on Udemy.
+This is a Next.js project created with a course on [Udemy](https://www.udemy.com/course/nextjs-react-the-complete-guide/#overview).
 
 ## Getting Started
 
